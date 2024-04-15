@@ -1,0 +1,140 @@
+.contact_bg {
+  background-image: url("../../assests/images/contact/contact-bg.webp");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.contact_overlay {
+  background: #00000042;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+.labe{
+  font-weight: 500;
+}
+.contact_us {
+  transition: 0.5s ease all;
+  height: 200px;
+}
+
+.contact_us:hover .icon {
+  transform: translateY(-10px);
+  transition: 0.5s ease;
+}
+.icon {
+  transition: 0.5s ease all;
+  cursor: pointer;
+}
+/* .form_border {
+  border: 5px solid #c4c4c4;
+} */
+.input:focus {
+  outline-color: #000000;
+  outline-style: ridge;
+}
+.btn_login:hover {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  border-radius: 0%;
+}
+.icons {
+  border: 1px solid #000000;
+  color:#000000;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.icons:hover {
+  animation-name: scale;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  cursor: pointer;
+  color: #ffa500;
+  border: 1px solid #ffa500;
+}
+
+@keyframes scale {
+  50% {
+    transform: scale(1.2);
+  }
+}
+.contactus_form {
+  width: 400px;
+  border: 5px solid transparent;
+  border-image: linear-gradient(to right, #ec2723, blue,  #f9a634);
+  border-image-slice: 1;
+  padding: 25px;
+}
+.btn_login {
+  width: 100% !important;
+  font-size: small;
+  border: none;
+}
+.textarea_input {
+  resize: none;
+  outline-color: #000000;
+  cursor: pointer;
+}
+
+.textarea_input:focus{
+  outline-style: ridge;
+} 
+.input{
+  cursor: pointer;
+}
+
+@media screen and (max-width: 100px) {
+  .btn_login {
+    display: block;
+    width: 100%;
+  }
+}
+.icon_social {
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 600px) {
+  .icon_social {
+    display: block;
+    width: 100%;
+  }
+}
+
+/* ipadpro */
+@media screen and (min-width: 991px) and (max-width: 1030px) {
+  .contact_bg {
+    height: 30vh;
+  }
+}
+
+  @media screen and (min-width: 1600px) and (max-width: 2000px) {
+    .contact_bg{height: 50vh;}
+  }
+
+
+/* mobile */
+@media screen and (max-width: 768px) {
+  .contact_bg{height: 25vh !important;}
+}
+
+
+/* landscape */
+@media screen and (min-width: 1366px) and (min-height: 1024px) {
+ .contact_bg{height: 45vh !important;} 
+}
+@media screen and (min-width: 1280px) and (min-height:800px) {
+  .contact_bg{height: 50vh;}
+}

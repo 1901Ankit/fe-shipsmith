@@ -1,0 +1,91 @@
+.services_bg {
+  background-image: url("../../assests/images/services/services-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+}
+.services_overlay {
+  background: #0000006e;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  align-items: center;
+}
+
+.our-services {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e9eaed;
+  padding: 10px;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 600;
+}
+.our-services:hover {
+  background-color: #000000;
+  color: #f9a634;
+}
+.our-services.active {
+  background-color: #000000;
+  color: #f9a634;
+}
+.need_help {
+  background-color: #f9f9f9;
+}
+.need_help:hover .help_btn {
+  color: #ffffff !important;
+  background-color: #000000 !important;
+}
+.help_btn {
+  transition: 0.5s ease all;
+  font-size: 13px;
+  color: #000000;
+}
+.benefits_list::before {
+  content: "✔️";
+  color: #f9a634;
+  margin-right: 5px;
+}
+
+/* ipad pro */
+@media screen and (min-width: 991px) and (max-width: 1030px) {
+  .services_bg{
+    height: 30vh;
+  }
+  .fjalla{font-size: 25px !important;}
+  .find{font-size: 17px !important;}
+  .want{margin-left: -12px;}
+}
+
+@media screen and (min-width: 1600px) and (max-width: 2000px) {
+  .services_bg{
+    height: 50vh;
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 768px) {
+  .services_bg{
+    height: 26vh;
+  }
+  .serv{
+    font-size: 20px !important;
+    margin-top: -37px;
+  }
+  .servi{
+    margin-bottom: 12px !important;
+  }
+  .craft{font-size: 18px !important;}
+  .letus{font-size: 13px !important;}
+  .ourserviceslist{
+    display: none;
+  }
+}
+@media screen and (min-width: 1366px) and (min-height: 1024px) {
+.services_bg{height: 40vh !important;}
+}
+@media screen and (min-width: 1280px) and (min-height:800px) {
+  .services_bg{height: 50vh;}
+}

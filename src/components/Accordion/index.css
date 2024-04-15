@@ -1,0 +1,48 @@
+.accordion_header {
+  border: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  /* border-bottom: 1px solid #eee; */
+  background: none;
+  color: #000000;
+  font-size: 20px;
+  border-bottom: none;
+  text-align: left;
+}
+.accordion_icon {
+  border: 2px solid #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+}
+.accrodion_body {
+  text-align: justify;
+  padding: 0px;
+  transition: 1s ease all;
+  padding-left: 10px;
+  
+}
+.accordion__body {
+  text-align: justify;
+  padding-left: 20px; 
+  /* border-bottom: 2px solid #000000;   */
+  
+}
+.accordion__header {
+  border-bottom: none;
+  border: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background: none;
+  color: #ec2027;
+  font-size: 20px; 
+  text-align: left;
+}

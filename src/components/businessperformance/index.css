@@ -1,0 +1,36 @@
+.circular_progressbar p {
+  font-size: 15px;
+}
+.busper{
+  text-align: justify;
+}
+/* .ppaaa{font-size: 11px !important ; } */
+@media screen and (max-width: 768px) {
+  .circular_progressbar p {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .busper{
+    text-align: left;
+    font-size: 12px;
+  }
+ 
+}
+
+
+@media screen and (min-width: 1600px) and (max-width: 2000px) {
+  .bespo{margin-top: 50px !important;}
+}
+@media screen and (min-width: 991px) and (max-width: 1030px) {
+  .bespo{margin-top: 30px !important;}
+.busper{font-size: 15px;}
+}
+@media screen and (min-width: 1366px) and (min-height: 1024px) {
+  .bespo{margin-top: 30px !important;}
+}
+
+@media screen and (min-width: 820px) and (min-height:1180px) {
+  .bespo{margin-top: -2px !important;}
+  .busper{font-size: 14px;}
+  .ppaaa{font-size: 10px !important;}
+}

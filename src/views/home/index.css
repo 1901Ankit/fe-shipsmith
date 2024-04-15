@@ -1,0 +1,573 @@
+/* .bg_home {
+  background-image: url("../../assests/images/banner/home-banner.webp");
+  max-width: 100%;
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg_home h5 {
+  font-size: 48px;
+  line-height: 1em;
+  font-weight: 500;
+  font-family: ubuntu-medium;
+}
+.bg-overlay {
+  background: #00000041;
+  height: 100%;
+  display: grid;
+  place-items: start;
+  align-items: center;
+} */
+/* .revive {
+ position: absolute !important;
+  font-size: 42px !important;
+  color: white !important;
+} */
+/* .bg-overlay p {
+  font-family: ubuntu-regular;
+} */
+/* .videoss{
+  display: none;
+} */
+
+.video {
+  width: 100%;
+  height: 100% !important;
+}
+
+.revive {
+  position: absolute;
+  color: white;
+  z-index: 999;
+  font-size: 35px;
+  top: 300px;
+}
+.exper {
+  position: absolute;
+  color: white;
+  z-index: 999;
+  top: 394px;
+  width: 40%;
+  text-align: left;
+}
+.exp {
+  position: absolute;
+  top: 484px;
+}
+
+.custom_btn:hover {
+  background: #000000 !important;
+  color: #ffffff !important;
+}
+.custom_btn {
+  transition: 0.5s ease all;
+}
+.shipment__track {
+  background-color: #f9f9f9;
+}
+.track_shipment {
+  color: #ffffff;
+  background-image: radial-gradient(at bottom right, #026cd3 0%, #013a71 70%);
+  position: relative;
+  /* width: 390px; */
+  /* bottom: 80px; */
+  /* right: 84px; */
+}
+.track_shipment h2 {
+  font-size: 25px;
+}
+.track_input::placeholder {
+  font-size: 14px;
+}
+.track_btn:hover {
+  color: #ffffff !important;
+  background-color: #013a71 !important;
+}
+.track_input:focus {
+  outline: none;
+}
+
+.control_loading {
+  position: relative;
+  margin-top: -130px;
+  left: 267px;
+  width: 320px;
+  border: 11px solid #ffffff;
+  height: 280px;
+}
+.counter {
+  width: 200px;
+  height: 175px;
+  background: #ffffff;
+  position: absolute;
+  left: 65px;
+  margin-top: 19px;
+  display: grid;
+  place-items: center;
+  align-items: center;
+}
+#counter {
+  font-size: 63px;
+  color: #ec2027;
+}
+.counter p {
+  color: #000000;
+  font-size: 20px;
+  font-family: fjalla;
+  font-weight: 600;
+  /* margin-top: 10px; */
+}
+.story h6 {
+  color: #901027;
+  font-style: italic;
+  font-size: 20px;
+  font-family: fjalla;
+  font-weight: 600;
+}
+.story_features h4::before {
+  content: "⬈";
+  color: #f9a634;
+  font-weight: 600;
+  background: transparent;
+  margin-right: 10px;
+  /* font-family: Font Awesome 6 free; */
+}
+/* .revive{
+  font-size: 38px !important;
+} */
+.story_features h4 {
+  font-family: ubuntu-medium;
+}
+.company_numbers {
+  background-image: url("../../assests/images/banner/terminal.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.company_overlay {
+  background-color: transparent;
+  background-image: radial-gradient(at bottom left, #901027 0%, #013a71 75%);
+  opacity: 0.9;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.solution h6 {
+  color: #901027;
+  font-style: italic;
+  font-size: 20px;
+  font-family: fjalla;
+  font-weight: 600;
+}
+.services_home_bg {
+  background-image: url("../../assests/images/banner/bespoke-ship-refit-and-modernization-services.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+.circle_head {
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  left: 48px;
+  bottom: 95px;
+  color: #ffffff;
+  font-size: 28px;
+}
+.process_text h6 {
+  color: #f9a634;
+  font-style: italic;
+  font-size: 20px;
+  font-family: fjalla;
+  font-weight: 600;
+}
+
+.team_section {
+  padding: 10px 10px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+.image {
+  border-radius: 50%;
+  height: 120px !important;
+  width: 120px !important;
+  margin-left: -35px !important;
+}
+.operat {
+  height: 103%;
+}
+
+
+.bg_testimonials {
+  background-image: url("../../assests/images/banner/testimonials-section.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 52vh;
+}
+.bg_testimonials_overlay {
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #013a71 0%, #212121 100%);
+  opacity: 0.7;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  align-items: center;
+}
+.client_bg {
+  background-color: #f9f9f9;
+}
+.ourr {
+  margin-left: -20px !important;
+}
+.osto {
+  margin-top: -46px;
+}
+.side {
+  margin-left: 218px !important;
+}
+.compny {
+  margin-left: 150px !important;
+}
+
+@media screen and (max-width: 600px) {
+  .control_loading {
+    position: initial;
+    margin-top: 0;
+    width: 100%;
+  }
+  .bg_testimonials_overlay {
+    display: flex;
+  }
+  .bg_home {
+    height: 30vh;
+  }
+  .bg_home h5 {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 991px) {
+  .control_loading {
+    position: initial;
+    margin-top: 0;
+    width: 100%;
+  }
+  .bg_home {
+    height: 25vh;
+  }
+  .bg_home h5 {
+    font-size: 25px;
+  }
+}
+
+/* ipadpro */
+@media screen and (min-width: 991px) and (max-width: 1030px) {
+  .bg_home {
+    height: 35vh;
+    width: 100%;
+  }
+
+  .revive {
+    font-size: 25px !important;
+    text-align: left;
+    margin-top: 35px;
+  }
+  .exper {
+    margin-top: 10px;
+    text-align: left;
+  }
+  .exp {
+    margin-top: 35px;
+  }
+  .video {
+    height: 580px !important;
+    width: 100% !important;
+  }
+  .control_loading {
+    position: initial;
+    margin-top: 0;
+    width: 100%;
+  }
+  .counter {
+    align-items: center;
+    margin-left: -5px;
+    margin-top: 22px;
+  }
+  .bg_testimonials {
+    height: 35vh;
+  }
+  .nav-links {
+    font-size: 12px;
+  }
+
+  .kee {
+    font-size: 16px !important;
+  }
+  .bg_testimonials {
+    height: 28vh;
+  }
+  .compny {
+    margin-left: 95px !important;
+  }
+  .operat {
+    width: 103%;
+  }
+  .image {
+    height: 15vh !important;
+    width: 20vw !important;
+    margin-left: -85px !important;
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 768px) {
+  .bg_home {
+    height: 30vh;
+  }
+  .video {
+   display: none;
+   }
+/* .videoss{
+  margin-top: 10px;
+  width: 220%;
+  height: 100%;
+}  */
+  .revive {
+    font-size: 22px !important;
+    text-align: left;
+    /* margin-top: 0px; */
+    position: absolute;
+    color: white;
+    margin-left: 12px;
+  }
+  .exper {
+    text-align: left;
+    font-size: 15px;
+    margin-top: -8px;
+    width: 90%;
+    position: absolute;
+    margin-left: 12px;
+  }
+  .exp {
+    margin-top: 7px;
+    width: 40% !important;
+    margin-left: 12px !important;
+    font-size: 10px !important;
+    height: 40px;
+    color: #000000;
+  }
+  .custom_btn {
+    color: #000000;
+    margin-left: 1px;
+  }
+  .upper {
+    margin-top: 11px !important;
+  }
+  .compny {
+    margin-left: -10px !important;
+  }
+
+  .shipment__track {
+    margin-bottom: -59px !important;
+  }
+  .ke {
+    margin-bottom: 35px;
+    font-size: 13px !important;
+    margin-top: 5px !important;
+  }
+  .kee {
+    margin-top: 5px !important;
+    margin-bottom: 35px;
+    font-size: 13px !important;
+  }
+  .with {
+    margin-top: -50px;
+    margin-left: 5px;
+  }
+  .kum {
+    margin-top: 12px;
+  }
+  .pair {
+    margin-bottom: 15px !important;
+  }
+  .bg_testimonials {
+    height: 55vh;
+  }
+  .bg_testimonials_overlay {
+    height: 49vh !important;
+  }
+  .testio {
+    font-size: 15px;
+    text-align: justify !important;
+  }
+  .image {
+    width: 50%;
+    height: 100%;
+    margin-left: 12px !important;
+  }
+  .piyu{
+    margin-top: 40px !important;
+  }
+}
+
+.videoss{
+  display: none;
+}
+
+@media screen and (min-width: 1600px) and (max-width: 2000px) {
+  .counter {
+    margin-left: 179px !important;
+  }
+  .bg_testimonials {
+    height: 40vh;
+  }
+  .bg_home {
+    height: 55vh;
+  }
+
+  .compny {
+    margin-left: -220px;
+  }
+}
+
+/* landscape */
+@media screen and (min-width: 1366px) and (min-height: 1024px) {
+  .bg_home {
+    height: 50vh !important;
+  }
+  .video {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .bg_testimonials {
+    height: 35vh;
+  }
+  .compny {
+    margin-left: 10px;
+  }
+  .counter{
+    left: 95px;
+  }
+}
+
+@media screen and (min-width: 1280px) and (min-height: 800px) {
+  .bg_home {
+    height: 69vh !important;
+  }
+  .video {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .counter {
+    margin-left: -37px !important;
+  }
+  .bg_testimonials {
+    height: 42vh;
+  }
+  .compny {
+    margin-left: 110px !important;
+  }
+}
+
+/* ipad air */
+/* @media screen and (min-width: 820px) and (min-height: 1180px) {
+  .bg_home {
+    height: 25vh;
+  }
+  .compny {
+    margin-left: 50px !important;
+  }
+  .bg_testimonials {
+    height: 30vh;
+  }
+  .revive {
+    font-size: 18px !important;
+    text-align: left;
+  }
+  .exper {
+    text-align: left;
+    font-size: 15px;
+  }
+  .with {
+    margin-top: 32px !important;
+  }
+  .paara {
+    font-size: 13px !important;
+  }
+  .prs {
+    width: 83vw !important;
+  }
+  .pras {
+    font-size: 12px !important;
+  }
+} */
+/* .prs{font-size: 12px;} */
+
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+  .video{
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .compny {
+    margin-left: 200px !important;
+  }
+  .counter {
+    margin-left: 189px !important;
+  }
+  .bg_home {
+    height: 60vh !important;
+  }
+  .revive {
+    font-size: 28px;
+    text-align: left;
+    margin-top: 55px;
+  }
+  .exper {
+    margin-top: 40px;
+    text-align: left;
+    font-size: 22px;
+    width: 40%;
+  }
+  .exp {
+    margin-top: 85px;
+  }
+}
+
+/* @media screen and (min-width: 1170px) and (min-height: 2532px) {
+  .bg_home{height: 70vh;}
+  .revive {
+    font-size: 16px !important;
+    text-align: left;}
+    .exper {
+      text-align: left;
+      font-size: 12px;
+    }
+} */
+
+
+
+
+
+@media screen and (max-width:600px)  {
+  .videoss{
+    display: block;
+  }
+}
+
+/* @media only screen and (max-width: 1079px)  {
+  .video{display:none;}
+  .videoss{display:block;}
+} */
+
+
+
+
+/* @media only screen and (max-width: 600px) and (min-width: 400px)  {...} */

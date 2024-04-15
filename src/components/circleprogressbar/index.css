@@ -1,0 +1,9 @@
+
+
+@media screen and (max-width: 768px) 
+{
+    .circular_progress{
+        width: 150px;
+        margin: auto;
+    }   
+}

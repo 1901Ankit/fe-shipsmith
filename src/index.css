@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: ubuntu-regular;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+p {
+  font-family: inter;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: fjalla;
+}
+button {
+  font-family: inter;
+  font-weight: 600;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+@font-face {
+  font-family: ubuntu-medium;
+  src: url(./assests/font/Ubuntu-Medium.ttf);
+}
+@font-face {
+  font-family: ubuntu-regular;
+  src: url(./assests/font/Ubuntu-Regular.ttf);
+}
+@font-face {
+  font-family: inter;
+  src: url(./assests/font/inter.ttf);
+}
+@font-face {
+  font-family: libre-baskerville;
+  src: url(./assests/font/LibreBaskerville-Italic.ttf);
+}
+@font-face {
+  font-family: fjalla;
+  src: url("./assests/font/FjallaOne-Regular.ttf");
+}
+
+::-webkit-scrollbar {
+  display: none;
+  position: sticky;
+}
+.link {
+  color: #ffffff;
+  text-decoration: none;
+}
+.link:hover {
+  color: #ffffff;
+}

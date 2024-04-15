@@ -1,0 +1,75 @@
+.solution_box {
+  background: #ffffff;
+  border-bottom: 4px solid #000000;
+  height: 499px;
+}
+.solution_box h4 {
+  color: #000000;
+  transition: 0.5s ease all;
+}
+.solution_box:hover .image_hover {
+  scale: 1.2;
+}
+.image_hover {
+  transition: 1s ease all;
+  height: 200px;
+}
+.solution_box:hover h4 {
+  color: #ec2027;
+}
+.para {
+  font-size: 13px;
+}
+.more {
+  position: absolute;
+  bottom: 45px;
+  left: 50px;
+}
+.solknow {
+  margin-left: -22px;
+}
+
+@media screen and (max-width: 600px) {
+  .solution_box {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 450px;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 991px) {
+  .solution_box {
+    height: 485px;
+  }
+  .solution_box h4 {
+    font-size: 16px !important;
+  }
+  .solution_box p {
+    font-size: 8px !important;
+  }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1030px) {
+  .solution_box {
+    height: 39vh;
+    padding: 10px 3px;
+    width: 100%;
+  }
+  .para {
+    font-size: 12px !important;
+    text-align: justify !important;
+  }
+}
+@media screen and (min-width: 1280px) and (min-height:800px) {
+  
+  .solution_box h4 {
+    color: #000000;
+    transition: 0.5s ease all;
+    font-size: 12px;
+  }
+  .more {
+    position: absolute;
+    bottom: 55px;
+    left: 50px;
+  }
+  }
+

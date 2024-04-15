@@ -1,0 +1,82 @@
+.text-justify {
+  text-align: justify;
+}
+.f-18 {
+  font-size: 18px;
+}
+.f-20 {
+  font-size: 20px;
+}
+.f-12 {
+  font-size: 12px;
+}
+.f-13 {
+  font-size: 13px;
+}
+.f-14 {
+  font-size: 14px;
+}
+.f-19 {
+  font-size: 19px;
+}
+.text-grey {
+  color: grey;
+}
+.f-49 {
+  font-size: 49px;
+}
+.f-30 {
+  font-size: 30px;
+}
+.text-blue {
+  color: #000000;
+}
+.fjalla {
+  font-family: fjalla;
+  font-weight: 400;
+}
+.text_primary {
+  color: #000000 !important;
+}
+.f-36 {
+  font-size: 36px;
+}
+.f-44 {
+  font-size: 44px;
+}
+.scroll_up {
+  color: #000;
+  border-radius: 50%;
+  background-color: #ffa500;
+  position: fixed;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  bottom: 50px;
+  cursor: pointer;
+}
+.italic {
+  color: #ec2027;
+  font-style: italic;
+  font-size: 20px;
+  font-family: libre-baskerville;
+  font-weight: 600;
+}
+.custom_btn {
+  background-color: #ffa500;
+  border: none;
+  color: #000000;
+}
+.pointer{
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .f-49 {
+    font-size: 24px;
+  }
+}

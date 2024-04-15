@@ -1,0 +1,32 @@
+.term_bg {
+    background-image: url("../../assests/images/banner/cargo-yard.jpg");
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .term_overlay {
+    background: #0000006e;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    align-items: center;
+  }
+  .term_overlay h3 {
+    font-size: 44px;
+    color: white;
+  }
+
+.uuse{
+    color: #ec2723;
+    font-size: 25px;
+}
+p{
+    font-size: 15px;
+}
+.ttte{
+    font-size: 30px !important;
+}
+.uusee{ color: #000;
+    font-size: 20px;}
